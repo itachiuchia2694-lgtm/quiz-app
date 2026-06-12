@@ -5,9 +5,9 @@ st.title("NAIVEDYA QUIZ 😏")
 score = 0
 
 A = st.text_input("NAIVEDYA'S FAVOURITE GAME")
-B = st.text_input("WHO NAIVEDYA LIKED THE MOST IN PERSON HE MET?")
+B = st.text_input("WHO NAIVEDYA LOVED THE MOST?")
 C = st.text_input("NAIVEDYA'S FAVOURITE ACTOR/ACTRESS")
-D = st.text_input("NAIVEDYA'S FAVOURITE SONG")
+D = st.text_input("DO YOU LIKE NAIVEDYA only answer is yes cuz you have to he is amazing😎" )
 E = st.text_input("NAIVEDYA'S FAVOURITE MOVIE/SERIES")
 F = st.text_input("WHICH MARTIAL ARTS DOES NAIVEDYA KNOW?")
 G = st.text_input("NAIVEDYA'S BEST FRIEND?")
@@ -32,7 +32,7 @@ if st.button("SUBMIT 😏"):
     else:
         st.write("Q3 WRONG ❌")
 
-    if D.upper() == "LOVE ME NOT":
+    if D.upper() == "YES":
         score += 1
     else:
         st.write("Q4 WRONG ❌")
@@ -62,7 +62,7 @@ if st.button("SUBMIT 😏"):
     else:
         st.write("Q9 WRONG ❌")
 
-    if J == ".":
+    if J == "ARADHYA":
         score += 1
     else:
         st.write("Q10 WRONG ❌")
